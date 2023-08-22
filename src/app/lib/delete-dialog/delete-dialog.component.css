@@ -1,0 +1,22 @@
+.mat-delete-dialog_container {
+  margin: 17px auto;
+}
+
+.mdc-button {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(35, 134, 98);
+  color: white;
+}
+
+.mat-delete-dialog_text {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 50px;
+}
+
+.mat-delete-dialog_buttons{
+  display: flex;
+  justify-content: space-around;
+}

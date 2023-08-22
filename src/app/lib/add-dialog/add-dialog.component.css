@@ -1,0 +1,27 @@
+.mat-add-dialog_container {
+  margin: 17px auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.mat-add-dialog_form-field {
+  width: 420px;
+}
+
+.mat-add-dialog_form {
+  display: flex;
+  flex-direction: column;
+}
+
+.mdc-button {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(35, 134, 98);
+  color: white;
+}
+
+.mat-add-dialog_buttons {
+  display: flex;
+  justify-content: space-around;
+}

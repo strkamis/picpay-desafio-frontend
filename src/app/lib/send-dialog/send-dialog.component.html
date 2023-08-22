@@ -1,0 +1,29 @@
+<div class="mat-send-dialog_container">
+  <h2 mat-dialog-title> Editar</h2>
+  <form class="mat-send-dialog_form">
+    <mat-form-field class="mat-send-dialog_form-field">
+      <mat-label>usuario</mat-label>
+      <input matInput class= "mat-send-dialog_input" [(ngModel)]="editedTask.name" name="name" placeholder="nome">
+    </mat-form-field>
+
+    <mat-form-field class="mat-send-dialog_form-field">
+      <mat-label>titulo </mat-label>
+      <input matInput class= "mat-send-dialog_input" [(ngModel)]="editedTask.title" name="title" placeholder="titulo">
+    </mat-form-field>
+
+    <mat-form-field class="mat-send-dialog_form-field">
+      <mat-label>data</mat-label>
+      <input matInput class= "mat-send-dialog_input" [(ngModel)]="editedTask.date" name="date" placeholder="data" >
+    </mat-form-field>
+
+    <mat-form-field class="mat-send-dialog_form-field">
+      <mat-label>valor</mat-label>
+      <input matInput class= "mat-send-dialog_input" [(ngModel)]="editedTask.value" name="value" placeholder="valor">
+    </mat-form-field>
+
+    <div class="mat-send-dialog_buttons">
+      <button mat-raised-button (click)="save()">Salvar</button>
+      <button mat-raised-button (click)="cancel()">Cancelar</button>
+    </div>
+  </form>
+</div>

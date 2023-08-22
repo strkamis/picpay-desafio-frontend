@@ -1,0 +1,45 @@
+.img-responsive {
+  width: 100px;
+}
+
+.mat-card {
+  max-width: 400px;
+  margin: 17em auto;
+  text-align: center;
+}
+
+
+table {
+  width: 100%;
+}
+
+.mat-mdc-form-field {
+  font-size: 14px;
+  width: 30%;
+
+}
+
+.mat-dashboard_search {
+  display: flex;
+  padding: 10px;
+  justify-content: space-between;
+}
+
+.button {
+  top: 25px;
+}
+
+.mat-checkbox {
+  height: 10px;
+}
+
+
+.mat-dashboard_buttons {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: flex-end;
+  padding: 15px;
+}
+.mat-flat-button{
+  background-color: rgb(35, 134, 98);
+}

@@ -1,0 +1,29 @@
+<div class="mat-add-dialog_container">
+  <h2 mat-dialog-title> Adicionar </h2>
+  <form class="mat-add-dialog_form">
+    <mat-form-field class="mat-add-dialog_form-field">
+      <mat-label>usuario</mat-label>
+      <input matInput class= "mat-add-dialog_input" [(ngModel)]="newTask.name" name="name" placeholder="nome">
+    </mat-form-field>
+
+    <mat-form-field class="mat-add-dialog_form-field">
+      <mat-label>titulo </mat-label>
+      <input matInput class= "mat-add-dialog_input" [(ngModel)]="newTask.title" name="title" placeholder="titulo">
+    </mat-form-field>
+
+    <mat-form-field class="mat-add-dialog_form-field">
+      <mat-label>data</mat-label>
+      <input matInput class= "mat-add-dialog_input" [(ngModel)]="newTask.date" name="date" placeholder="data" >
+    </mat-form-field>
+
+    <mat-form-field class="mat-add-dialog_form-field">
+      <mat-label>valor</mat-label>
+      <input matInput class= "mat-send-dialog_input" [(ngModel)]="newTask.value" name="value" placeholder="valor">
+    </mat-form-field>
+    <mat-checkbox  name="isPayed"  [(ngModel)]="newTask.isPayed">Pago</mat-checkbox>
+    <div class="mat-add-dialog_buttons">
+      <button mat-raised-button (click)="addTask()">Salvar</button>
+      <button mat-raised-button (click)="cancel()">Cancelar</button>
+    </div>
+  </form>
+</div>
